@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+Quiz Application in React with the useReducer Hook
+📖 Project Description
+This project is a React-based quiz application that leverages the useReducer hook for state management. Quiz data is fetched from a local JSON Server. The app includes a countdown timer for each question and dynamically tracks the user’s progress and score.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+State Management: Centralized and predictable state handling with useReducer.
+Countdown Timer: A timer for each question that automatically resets.
+Dynamic Quiz Flow: Questions are fetched from the JSON Server API, and progress and score are updated in real-time.
+JSON Server: A local API server used for storing quiz questions.
+Responsive UI: Optimized for various screen sizes.
+Modern React: Built with up-to-date practices, including hooks.
+🛠️ How It Works
+useReducer Hook
+The application uses the useReducer hook to handle:
 
-## Available Scripts
+Current Question: Tracks which question is currently being displayed.
+Timer: Manages the countdown for each question and resets automatically.
+Score: Updates the user's score for correct answers.
+Quiz Completion: Detects when the quiz has ended.
+JSON Server
+Quiz questions are stored in a local db.json file and fetched using JSON Server. This approach allows for easy modification and extension of the quiz content without altering the app's code.
 
-In the project directory, you can run:
+🛠️ Technologies
+React.js
+Hooks: useReducer, useEffect
+JSON Server
+JavaScript (ES6+)
+CSS
+📧 Contact
+Have questions or suggestions? Feel free to reach out:
 
-### `npm start`
+GitHub: lukaszmecala
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aplikacja Quiz w React z użyciem hooka useReducer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📖 Opis projektu
+Projekt jest aplikacją quizową opartą na React, w której wykorzystano hook useReducer do zarządzania stanem. Dane quizu są pobierane z lokalnego serwera JSON Server. Aplikacja posiada licznik czasu dla każdego pytania, a także dynamicznie śledzi postęp i wynik użytkownika.
 
-### `npm test`
+✨ Funkcje
+Zarządzanie stanem: Centralne i przewidywalne zarządzanie stanem za pomocą useReducer.
+Licznik czasu: Odliczanie dla każdego pytania, które automatycznie się resetuje.
+Dynamiczny przebieg quizu: Pytania są pobierane z API JSON Server, a postęp i wynik są aktualizowane na bieżąco.
+JSON Server: Wykorzystanie lokalnego serwera API do przechowywania pytań quizu.
+Responsywny interfejs: Optymalizacja dla różnych rozmiarów ekranów.
+Nowoczesny React: Budowa w oparciu o aktualne praktyki, z wykorzystaniem hooków.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Jak to działa?
+Hook useReducer
+Aplikacja wykorzystuje hook useReducer do obsługi:
 
-### `npm run build`
+Aktualnego pytania: Śledzenie, które pytanie jest obecnie wyświetlane.
+Licznika czasu: Odliczanie dla każdego pytania, z automatycznym resetem.
+Wyniku: Aktualizowanie wyniku użytkownika za poprawne odpowiedzi.
+Zakończenia quizu: Wykrywanie momentu zakończenia quizu.
+JSON Server
+Pytania quizu są pobierane z lokalnego pliku db.json za pomocą JSON Server, co pozwala łatwo modyfikować i rozszerzać quiz bez zmiany kodu aplikacji.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Technologie
+React.js
+Hook useReducer, useEffect
+JSON Server
+JavaScript (ES6+)
+CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📧 Kontakt
+Masz pytania lub uwagi? Napisz do mnie:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: lukaszmecala
